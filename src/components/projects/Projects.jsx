@@ -6,12 +6,12 @@ function Projects() {
   <section className="projects">
  <h2 className="projects-Title">Projects</h2>
   <div className="projects-div">
-    <figure class="snip1567">
+    <figure className="snip1567">
       <img src={task} alt="sample88" />
       <figcaption>
         <h3>Task Tracker</h3>
       </figcaption>
-      <div class="hover"></div><i class="fa-solid fa-arrow-up-right-from-square"></i>
+      <div className="hover"></div><i className="fa-solid fa-arrow-up-right-from-square"></i>
       <a href="#"></a>
     </figure>
     {/* <figure class="snip1567"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample96.jpg" alt="sample96" />

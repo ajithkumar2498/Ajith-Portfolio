@@ -1,9 +1,11 @@
 import React from 'react'
 import './about.css'
 function About() {
-  return (
-    <div>About</div>
-  )
+  return<>
+  <section className='about'>
+    
+  </section>
+  </>
 }
 
 export default About

@@ -14,7 +14,7 @@ function Intro() {
  <section className='intro'>
     <div className="intro-content">
     <span className="hello">Hello</span>
-    <span className="intro-text">I'm <span className="name">Ajithkumar</span><br />MERN Developer</span>
+    <span className="intro-text">I'm <span className="myName">Ajithkumar</span><br />MERN Developer</span>
     <p className="intro-para">Junior Full Stack  Developer</p>
     <div className="buttons">
     <a><button className="btn"><img src={contact_dark} alt="" className="btnImg" />Contact Me</button></a>
