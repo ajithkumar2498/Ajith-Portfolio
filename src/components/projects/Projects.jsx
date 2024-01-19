@@ -22,7 +22,12 @@ function Projects() {
       <div class="hover"></div><i class="ion-android-add"></i>
       <a href="#"></a>
     </figure> */}
+   
     </div>
+    <div className="projectSeeMore">
+    <button className="seemoreBtn">see more..</button>
+    </div>
+    
   </section>
 
   </>

@@ -26,9 +26,9 @@
 }
 
 .skillobj{
-    font-weight: 350;
+    font-weight: 400;
     font-size: 1rem;
-    max-width: 51rem;
+    max-width: 60rem;
     padding:0 2rem;
 }
 .skillbox{
@@ -80,7 +80,7 @@
     }
 }
 @media screen and (max-width:480px) {
-    .skilldesc{
+    .skillheader{
         font-size: 3vw;
     }
     .skillbarImg{
@@ -90,4 +90,23 @@
     .skillheader{
         font-size: 5vw;
     }
+}
+@media screen and (max-width:1040px) {
+    .skillcontent{
+        font-size: 1.5vw;
+    }
+    .skillbox{
+        grid-template-columns: repeat(3,0.2fr);
+    }
+
+}
+@media screen and (max-width:460px) {
+    .skillcontent{
+        font-size: 1vw;
+    }
+    .skillbox{
+        max-width:80%;
+        grid-template-columns: repeat(1,0.2fr);
+    }
+
 }
