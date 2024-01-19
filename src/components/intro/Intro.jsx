@@ -15,7 +15,7 @@ function Intro() {
     <div className="intro-content">
     <span className="hello">Hello</span>
     <span className="intro-text">I'm <span className="name">Ajithkumar</span><br />MERN Developer</span>
-    <p className="intro-para">Junior MERN Full Stack  Developer</p>
+    <p className="intro-para">Junior Full Stack  Developer</p>
     <div className="buttons">
     <a><button className="btn"><img src={contact_dark} alt="" className="btnImg" />Contact Me</button></a>
     <a href={resume} target='_blank' download="resume"><button className="btn"   ><img src={download} alt="" className="btnImg" />Resume</button></a>
