@@ -14,7 +14,7 @@ top:-1rem;
 right:0;
 object-fit: cover;
 height: 75vh;
-padding:4rem 1rem;
+padding:4rem ;
 /* height: 100vh; */
 }
  .intro-content{
@@ -75,8 +75,13 @@ padding:4rem 1rem;
   }
   @media screen and (max-width:480px) {
     .bg{
-        right:-20vw;
-    }
+        right:-15vw;
+    }}
+    @media screen and (max-width:430px) {
+      .bg{
+          right: -25vw;
+      }
+  
 
   }
   .buttons{

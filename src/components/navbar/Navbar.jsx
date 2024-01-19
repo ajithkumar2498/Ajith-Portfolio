@@ -22,7 +22,7 @@ function Navbar({theme, setTheme}) {
           <Link className="Menulist">Skills</Link>
         </div>
         <button className="menubutton">
-          <img src={theme=="dark" ? contact_light : contact_dark} alt="" className="btn-img" /> <span>contact me</span> 
+          <img src={theme=="dark" ? contact_light : contact_dark} alt="" className="btn-img" /> <span className="contactBtn">contact me</span> 
         </button>
       </nav>
     </>

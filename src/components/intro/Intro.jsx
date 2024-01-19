@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../images/ajith1.png'
+import bg from '../../images/Ajith.png'
 import { Link } from "react-scroll";
 import contact_light from "../../images/contact-light.png";
 import contact_dark from "../../images/contact-dark.png"
