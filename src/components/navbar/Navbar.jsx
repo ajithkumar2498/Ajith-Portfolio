@@ -20,8 +20,8 @@ function Navbar({theme, setTheme}) {
          <img src={theme=="dark" ? light : dark} alt="" onClick={()=> toggle_mode()} className="theme" />
         <div className="menu">
           <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={500} className="Menulist">Home</Link>
-          <Link activeClass="active" to='about' spy={true} smooth={true} offset={-100} duration={500} className="Menulist">About</Link>
-          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-50} duration={500} className="Menulist">Projects</Link>
+          <Link activeClass="active" to='about' spy={true} smooth={true} offset={-100} duration={500} className="Menulist">About Me</Link>
+          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-80} duration={500} className="Menulist">Projects</Link>
           <Link activeClass="active" to='Skills'spy={true} smooth={true} offset={-100} duration={500} className="Menulist">Skills</Link>
         </div>
         <button className="menubutton" onClick={()=>{
@@ -33,7 +33,7 @@ function Navbar({theme, setTheme}) {
         <div className="navMenu" style={{display:showMenu? 'flex':'none'}}>
           <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={500} className="MenuListItem" onClick={()=>setshowMenu(false)}>Home</Link>
           <Link activeClass="active" to='about' spy={true} smooth={true} offset={-100} duration={500} className="MenuListItem" onClick={()=>setshowMenu(false)}>About</Link>
-          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-50} duration={500} className="MenuListItem" onClick={()=>setshowMenu(false)}>Projects</Link>
+          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-80} duration={500} className="MenuListItem" onClick={()=>setshowMenu(false)}>Projects</Link>
           <Link activeClass="active" to='Skills'spy={true} smooth={true} offset={-100} duration={500} className="MenuListItem" onClick={()=>setshowMenu(false)}>Skills</Link>
           <Link activeClass="active" to='Skills'spy={true} smooth={true} offset={-100} duration={500} className="MenuListItem" onClick={()=>setshowMenu(false)}>Contact</Link>
         </div>

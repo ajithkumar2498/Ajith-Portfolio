@@ -96,6 +96,7 @@
         font-size: 1.5vw;
     }
     .skillbox{
+        column-gap: 5.5rem;
         grid-template-columns: repeat(3,0.2fr);
     }
 
@@ -109,4 +110,15 @@
         grid-template-columns: repeat(1,0.2fr);
     }
 
+}
+@media screen and (max-width:740px) {
+    .skillbox{
+        /* max-width:80%; */
+        column-gap: 50px;
+        grid-template-columns: repeat(2,0.2fr);
+    }
+    .skillBar{
+        width:100vw;
+    }
+    
 }
