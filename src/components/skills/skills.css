@@ -45,7 +45,7 @@
 .skillBar{
     display: grid;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: newwrap;
     place-items: center;
     width:100vw;
     /* flex-flow: row; */
