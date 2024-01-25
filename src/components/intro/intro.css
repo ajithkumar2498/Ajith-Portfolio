@@ -122,14 +122,14 @@ span{
       &:after{
         top:-1px;
         left:-1px;
-        border-top:5px solid rgb(107, 152, 192);
-        border-left:5px solid rgb(107, 152, 192);
+        border-top:5px solid #054e5d;
+        border-left:5px solid #054e5d;
       }
       &:before{
         bottom:-1px;
         right:-1px;
-        border-bottom:5px solid rgb(107, 152, 192);
-        border-right:5px solid rgb(107, 152, 192);
+        border-bottom:5px solid #054e5d;
+        border-right:5px solid #054e5d;
       }
       &:hover{
         border-top-right-radius:0px;
