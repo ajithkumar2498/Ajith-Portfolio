@@ -18,7 +18,7 @@ function Intro() {
     <div className="intro-content">
     <span className="hello">Hello</span>
     <span className="intro-text">I'm <span className="myName">Ajithkumar</span><br />Full Stack Developer</span>
-    <p className="intro-para">I am a Skilled, Enthusiastic and dedicated Junior MERN Stack Developer with a strong foundation in web development technologies. Eager to leverage skills in MongoDB, Express.js, React, and Node.js to contribute to dynamic projects and gain hands-on experience in building responsive and user-friendly web applications. Possesses a solid understanding of front-end and back-end principles, coupled with a passion for continuous learning and growth within a collaborative team environment</p>
+    <p className="intro-para">I am a Skilled, Enthusiastic and dedicated Junior MERN Stack Developer with a strong foundation in web development technologies. Eager to leverage skills in MongoDB, Express.js, React, and Node.js to contribute to dynamic projects and gain hands-on experience in building responsive and user-friendly web applications. </p>
     <div className="buttons">
     <a ><button className="btn"  class="btn btn-danger" onClick={()=>openresume()}><img src={contact_dark} alt="" className="btnImg" />View Resume</button></a>
     <a href={resume} target='_blank' download="resume"><button className="btn"   ><img src={download} alt="" className="btnImg" />Resume</button></a>

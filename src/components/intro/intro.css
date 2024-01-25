@@ -13,7 +13,7 @@ z-index: -1;
 top:-1rem;
 right:0;
 object-fit: cover;
-height: 75vh;
+height: 70vh;
 padding:4rem ;
 /* height: 100vh; */
 }
@@ -87,6 +87,12 @@ padding:4rem ;
   
 
   }
+
+  @media screen and (max-width:840px){
+    .intro{
+      height: calc(120vh - 5rem);
+    }
+  }
   .buttons{
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +107,7 @@ span{
       position:relative;
       padding:10px 20px;
       background:white;
-      font-size:28px;
+      font-size:20px;
       border-top-right-radius:10px;
       border-bottom-left-radius:10px;
       transition:all 1s;
