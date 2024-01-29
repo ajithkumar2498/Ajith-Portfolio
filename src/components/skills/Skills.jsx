@@ -9,6 +9,8 @@ import cssImg from "../../images/css.png"
 import JS from "../../images/js.png"
 import github from "../../images/github.png"
 import bootstrap from "../../images/bootstrap.png"
+import ppt from "../../images/ppt.png"
+
 function Skills() {
   return (
     <section className="Skills"> 
@@ -67,6 +69,12 @@ function Skills() {
       <img src={bootstrap} alt="" className="skillbarImg" />
         <div className="skillcontent">
             <h2 className="skillheader">BootStrap</h2>
+        </div>
+      </div>
+      <div className="skillBar">
+      <img src={ppt} alt="" className="skillbarImg" />
+        <div className="skillcontent">
+            <h2 className="skillheader">PPT Designer</h2>
         </div>
       </div>
     </div>
