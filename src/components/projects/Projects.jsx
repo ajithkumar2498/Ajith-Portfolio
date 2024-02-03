@@ -5,28 +5,36 @@ function Projects() {
   return <>
   <section className="projects">
  <h2 className="projects-Title">Projects</h2>
-  <div className="projects-div">
-    <figure className="snip1567">
-      <img src={task} alt="sample88" />
-      <figcaption>
-        <h3>Task Tracker</h3>
-      </figcaption>
-      <div className="hover"></div><i className="fa-solid fa-arrow-up-right-from-square"></i>
-      <a href="#"></a>
-    </figure>
-    {/* <figure class="snip1567"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample96.jpg" alt="sample96" />
-      <figcaption>
-        <h3>Online Marketing</h3>
-        <p>The only skills I have the patience to learn are those that have no real application in life. </p>
-      </figcaption>
-      <div class="hover"></div><i class="ion-android-add"></i>
-      <a href="#"></a>
-    </figure> */}
-   
+ <div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="box">
+                <img src={task}/>
+                <div class="box-content">
+                    <h3 class="title">Williamson</h3>
+                    <span class="post">Web designer</span>
+                </div>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="box">
+                <img src={task}/>
+                <div class="box-content">
+                    <h3 class="title">Miranda Roy</h3>
+                    <span class="post">Web designer</span>
+                </div>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div className="projectSeeMore">
-    <button className="seemoreBtn">see more..</button>
-    </div>
+</div>
     
   </section>
 

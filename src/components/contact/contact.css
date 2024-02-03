@@ -35,7 +35,13 @@
   color:white;
   border: none;
   border-radius: 0.5rem;
-  background: #054e5d;
+  background: #0a849c;
+}
+input::placeholder{
+    color: black;
+}
+textarea::placeholder{
+    color: black;
 }
 .submitbtn{
     background-color: white;
@@ -56,7 +62,7 @@
     transition: 0.3s;
 }
 .link:hover{
-  color:rgb(143, 201, 232) ;
+  color:#0a849c ;
 }
 .iconLink{
     text-decoration: none;

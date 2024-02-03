@@ -107,7 +107,8 @@ span{
       position:relative;
       padding:10px 20px;
       background:white;
-      font-size:20px;
+      font-size:18px;
+      font-weight: 500;
       border-top-right-radius:10px;
       border-bottom-left-radius:10px;
       transition:all 1s;
@@ -122,14 +123,14 @@ span{
       &:after{
         top:-1px;
         left:-1px;
-        border-top:5px solid #054e5d;
-        border-left:5px solid #054e5d;
+        border-top:5px solid #0a849c;
+        border-left:5px solid #0a849c;
       }
       &:before{
         bottom:-1px;
         right:-1px;
-        border-bottom:5px solid #054e5d;
-        border-right:5px solid #054e5d;
+        border-bottom:5px solid #0a849c;
+        border-right:5px solid #0a849c;
       }
       &:hover{
         border-top-right-radius:0px;
