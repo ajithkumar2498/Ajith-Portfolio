@@ -38,10 +38,10 @@
   background: #0a849c;
 }
 input::placeholder{
-    color: black;
+    color: rgb(55, 55, 55);
 }
 textarea::placeholder{
-    color: black;
+    color: rgb(50, 50, 50);
 }
 .submitbtn{
     background-color: white;
