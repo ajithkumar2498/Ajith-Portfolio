@@ -4,9 +4,9 @@ import task from "../../images/task-project.jpeg"
 
 function Projects() {
   return <>
-  <section className="projects-div">
-  <span className="Project-Title"><span className='project-bg'>Projects</span></span>  
-    <div className="cards">
+  <section id="projects-div">
+     <span className="Project-Title"><span className='project-bg'>Projects</span></span>  
+      <div className="cards">
         <div className="card">
             <div className="card-face front">
                 <img src={task} alt="" />
