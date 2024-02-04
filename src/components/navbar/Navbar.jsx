@@ -21,7 +21,7 @@ function Navbar({theme, setTheme}) {
         <div className="menu">
           <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={700} className="Menulist">Home</Link>
           <Link activeClass="active" to='Skills'spy={true} smooth={true} offset={-100} duration={700} className="Menulist">Skills</Link>
-          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-100} duration={700} className="Menulist">Projects</Link>
+          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-100} duration={650} className="Menulist">Projects</Link>
           <Link activeClass="active" to='about' spy={true} smooth={true} offset={-100} duration={700} className="Menulist">About Me</Link>
         </div>
         <button className="menubutton" onClick={()=>{
