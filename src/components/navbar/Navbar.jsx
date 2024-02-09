@@ -19,10 +19,10 @@ function Navbar({theme, setTheme}) {
       <nav className={`Nav-bar ${theme}`}>
          <img src={theme=="dark" ? light : dark} alt="" onClick={()=> toggle_mode()} className="theme" />
         <div className="menu">
-          <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={700} className="Menulist">Home</Link>
-          <Link activeClass="active" to='Skills'spy={true} smooth={true} offset={-100} duration={700} className="Menulist">Skills</Link>
-          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-100} duration={650} className="Menulist">Projects</Link>
-          <Link activeClass="active" to='about' spy={true} smooth={true} offset={-100} duration={700} className="Menulist">About Me</Link>
+          <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-120} duration={700} className="Menulist">Home</Link>
+          <Link activeClass="active" to='Skills' spy={true} smooth={true} offset={-120} duration={700} className="Menulist">Skills</Link>
+          <Link activeClass="active" to='projects' spy={true} smooth={true} offset={-120} duration={700} className="Menulist">Projects</Link>
+          <Link activeClass="active" to='about' spy={true} smooth={true} offset={-120} duration={700} className="Menulist">About</Link>
         </div>
         <button className="menubutton" onClick={()=>{
           document.getElementById('contact-page').scrollIntoView({behavior:'smooth'})
