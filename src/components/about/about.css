@@ -1,0 +1,36 @@
+.about-div{
+    max-width: 100vw;
+}
+.About-Title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 0.8rem;
+    margin-bottom: 5px;
+  
+  }
+  .about-bg{
+   background-color: yellow;
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+   border-radius: 15px;
+  }
+  .about-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .edu1{
+    display: flex;
+    flex-direction: row;
+  }
+  .edu2{
+    display: flex;
+    flex-direction: row;
+  }
+  .edu3{
+    display: flex;
+    flex-direction: row;
+  }
