@@ -6,7 +6,7 @@ import contact_light from "../../images/contact-light.png";
 import contact_dark from "../../images/contact-dark.png"
 import contact from '../../images/contact.png'
 import resume_light from "../../images/resume-light.png"
-import resume from "../../files/Ajith Resume.pdf"
+import resume from "../../files/Ajith CV.pdf"
 import download from "../../images/downloads.png"
 
 function Intro() {

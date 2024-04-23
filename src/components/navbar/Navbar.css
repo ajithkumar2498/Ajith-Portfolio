@@ -105,3 +105,9 @@
   }
   
 }
+
+@media screen and (max-width:720px) {
+  .Nav-bar{
+    width: 100vw;
+  }
+}
